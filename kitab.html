@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>قريباً</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@700;900&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle at center, #111 0%, #000 100%);
+    color: #e6c067;
+    font-family: 'Amiri', serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    animation: fadeIn 2s ease forwards;
+}
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+.divider {
+    width: 120px;
+    height: 2px;
+    background: #e6c067;
+    margin: 40px auto;
+    opacity: 0.5;
+}
+
+.footer {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>قريباً جداً</h1>
+    <div class="divider"></div>
+    <p>الكتاب سيكون متوفر في الأسابيع القليلة القادمة</p>
+</div>
+
+<div class="footer">
+    
+بَلْمَٰاحِي مُحَمَّٰدْ اْلأَمِينْ فَوْزِي
+ⴱⵍ'ⵎⴰⵃⵉ ⵎⵃⵎⴷ ⵍ'ⴰⵎⵉⵏ ⴼⴰⵡⵣⵉ
+</div>
+
+</body>
+</html>
